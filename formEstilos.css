@@ -1,0 +1,56 @@
+body{
+    background-color: turquoise;
+    background-image: url(html52.png);
+    background-repeat: repeat-x ;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#formulario{
+    margin: 0 auto;
+    width: 400px;
+    background-color: wheat;
+    margin-top: 200px;
+    padding: 30px;
+    border: 5px solid lightcoral;
+    border-radius: 15px;
+    height: 1200px;
+}
+
+#formulario label{
+    float: left;
+    width: 150px;
+    color: red;
+}
+
+#formulario input{
+    width: 200px;
+}
+
+#formulario textarea{
+    width: 200px;
+}
+
+#botones{
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 200px;
+}
+
+.campos{
+    margin-top: 10px;
+}
+
+#formulario input[type="submit"], #formulario input[type="reset"]{
+    width: 100px;
+    background-color: lightgreen;
+    color: white;
+    border-color: aquamarine;
+    cursor: pointer;
+}
+
+#formulario input[type="submit"]:hover, #formulario input[type="reset"]:hover{
+    background-color: white;
+    color: red;
+    border-color: lightsalmon;
+}
